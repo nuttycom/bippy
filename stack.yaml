@@ -3,12 +3,7 @@ packages:
 - '.'
 allow-newer: true
 extra-deps:
-- haskoin-core-0.2.0
-- aeson-0.8.1.1
-- base-orphans-0.5.3
-- murmur3-1.0.1
-- pbkdf-1.1.1.1
-- secp256k1-0.4.5
-- text-1.2.2.0
-- vector-0.10.12.3
-resolver: lts-5.3
+- crypto-pubkey-0.2.8@sha256:a1ed035adeec47912c790967a00b4b77580c1edf586d1bebde9a615c86e972df,2892
+- pbkdf-1.1.1.1@sha256:8d464cca917d723c65fe1a9f03e3b441e3f1bdbe4b72bf0f4e24a1e80ccfa326,2070
+- crypto-numbers-0.2.7@sha256:2b493386b7605b70a67f751d6496e9feff8ef319a5294b122a3ff3895a8453ca,2223
+resolver: lts-13.9
